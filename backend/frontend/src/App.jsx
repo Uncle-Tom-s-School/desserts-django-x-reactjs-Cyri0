@@ -10,7 +10,7 @@ const App = () => {
   },[])
 
   return (
-    <div>
+    <div className='dessert-wrapper'>
       { desserts.map(dessert => <DessertCard {...dessert} />) }
     </div>
   )
